@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: prova-9-sample-spring-boot-app-k8s
-          image: //prova-9-sample-spring-boot-app-k8s:1.0
+          image: prova-9-sample-spring-boot-app-k8s:1.0
           ports:
             - containerPort: 8080
               name: http
